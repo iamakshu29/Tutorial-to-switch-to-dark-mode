@@ -1,0 +1,61 @@
+div
+{   position: relative;
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    top: 25px;
+    left: 25%;
+    
+}
+
+section
+{
+    position :absolute;
+    height: 35px;
+    width: 125px;
+    border: 1px solid black;
+    left: 200px;
+    top: 2%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+article
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 2px;
+    
+}
+
+ .button-left
+{
+    border: 1px solid black;
+    left: 4px;
+    background-color: black;
+    transition: all ease-in-out 1s;
+
+} 
+
+
+/* toggle these class using javascript (DARK MODE)*/ 
+
+.box
+{
+    background-color: black;
+}
+
+.heading
+{
+    color: white;
+}
+
+.button-right
+{
+    
+    left:90px;
+    background-color: black;
+} 
+
